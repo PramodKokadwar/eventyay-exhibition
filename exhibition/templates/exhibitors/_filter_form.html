@@ -15,9 +15,9 @@
             </div>
             <div class="advanced-filter-search-actions">
                 <a href="{{ request.path }}" class="btn btn-default btn-clear-filter"
-                   aria-label="{% trans 'Clear filters' %}" title="{% trans 'Clear filters' %}">
+                   aria-label="{% trans 'Clear' %}" title="{% trans 'Clear' %}">
                     <span class="fa fa-eraser" aria-hidden="true"></span>
-                    <span class="sr-only">{% trans "Clear filters" %}</span>
+                    {% trans "Clear" %}
                 </a>
                 {% if filter_form.advanced_fields %}
                     <button type="button"
