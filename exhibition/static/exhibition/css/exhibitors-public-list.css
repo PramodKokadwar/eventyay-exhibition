@@ -27,6 +27,12 @@
 .exhibition-public-filter-submit,
 .exhibition-public-filter-reset {
     flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 110px;
+    height: 34px;
+    box-sizing: border-box;
 }
 
 .exhibition-public-grid {
