@@ -62,7 +62,11 @@
 }
 
 .partner-link-actions {
-    margin-top: 10px;
+    margin-top: 0;
+}
+
+.form-horizontal .radio:first-child {
+    margin-top: -5px;
 }
 
 .partner-link-add {
